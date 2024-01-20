@@ -20,3 +20,210 @@
     display: flex;
     justify-content: center;
 }
+/* Reset default styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  margin: 50px;
+}
+
+#convertButton {
+  background: black;
+  color: white;
+  width: 120px;
+  height: 40px;
+  margin-top: 30px;
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#convertButton:hover {
+  background-color: #333;
+}
+
+#textBox {
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+
+#micButton:hover {
+  background-color: #45a049;
+}
+
+#showTextInputButton {
+  /* Add your styles here */
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+}
+
+#showTextInputButton:hover {
+  background-color: #297fb8;
+}
+
+#showSpeakerButton {
+  /* Add your styles here */
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+}
+
+#showSpeakerButton:hover {
+  background-color: #3d8f42;
+}
+
+/* BEGIN: Additional styles for enhanced app */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.result {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  margin: 50px;
+}
+
+#convertButton {
+  background: black;
+  color: white;
+  width: 120px;
+  height: 40px;
+  margin-top: 30px;
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#convertButton:hover {
+  background-color: #333;
+}
+
+#textBox {
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+#micButton:hover {
+  background-color: #45a049;
+}
+
+#showTextInputButton {
+  /* Add your styles here */
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+}
+
+#showTextInputButton:hover {
+  background-color: #297fb8;
+}
+
+#showSpeakerButton {
+  /* Add your styles here */
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+}
+
+#showSpeakerButton:hover {
+  background-color: #3d8f42;
+}
+
+/* BEGIN: Additional styles for enhanced app */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.result {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+}
+
+
+h1 {
+  font-size: 32px;
+  color: black;
+  margin-bottom: 10px;
+  font-family:Garamond, serif;
+  font-weight: bold;
+  text-decoration: underline;
+}
+/* END: Additional styles for enhanced app */
+
